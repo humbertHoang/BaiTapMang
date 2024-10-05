@@ -47,8 +47,19 @@
                     <button class="nav-link" id="nav-bai3-tab" data-bs-toggle="tab" data-bs-target="#nav-bai3"
                       type="button" role="tab" aria-controls="nav-bai3" aria-selected="false">Bài 3</button>
                     <button class="nav-link" id="nav-bai4-tab" data-bs-toggle="tab" data-bs-target="#nav-bai4"
-                      type="button" role="tab" aria-controls="nav-bai4" aria-selected="false" disabled>Bài
-                      4</button>
+                      type="button" role="tab" aria-controls="nav-bai4" aria-selected="false">Bài 4</button>
+                    <button class="nav-link" id="nav-bai5-tab" data-bs-toggle="tab" data-bs-target="#nav-bai5"
+                      type="button" role="tab" aria-controls="nav-bai5" aria-selected="false">Bài 5</button>
+                    <button class="nav-link" id="nav-bai6-tab" data-bs-toggle="tab" data-bs-target="#nav-bai6"
+                      type="button" role="tab" aria-controls="nav-bai6" aria-selected="false">Bài 6</button>
+                    <button class="nav-link" id="nav-bai7-tab" data-bs-toggle="tab" data-bs-target="#nav-bai7"
+                      type="button" role="tab" aria-controls="nav-bai7" aria-selected="false">Bài 7</button>
+                    <button class="nav-link" id="nav-bai8-tab" data-bs-toggle="tab" data-bs-target="#nav-bai8"
+                      type="button" role="tab" aria-controls="nav-bai8" aria-selected="false">Bài 8</button>
+                    <button class="nav-link" id="nav-bai9-tab" data-bs-toggle="tab" data-bs-target="#nav-bai9"
+                      type="button" role="tab" aria-controls="nav-bai9" aria-selected="false">Bài 9</button>
+                    <button class="nav-link" id="nav-bai10-tab" data-bs-toggle="tab" data-bs-target="#nav-bai10"
+                      type="button" role="tab" aria-controls="nav-bai9" aria-selected="false">Bài 10</button>
                   </div>
                 </nav>
                 <div class="tab-content" id="nav-tabContent">
@@ -59,17 +70,121 @@
                       👉<strong> Mảng: </strong><span id="sumArray"></span>
                     </div>
                     <div class="col-12 text-center">
-                      <button class="btn btn-success btn-lg" id="sumarrBtn" type="button">
+                      <button class="btn btn-primary btn-lg" id="sumarrBtn" type="button">
                         Tính tổng
                       </button>
                     </div>
                   </div>
                   <div class="tab-pane fade" id="nav-bai2" role="tabpanel" aria-labelledby="nav-bai2-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Đếm số dương</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Mảng: </strong><span id="countposnumArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="countposnumBtn" type="button">
+                        Đếm
+                      </button>
+                    </div>
                   </div>
-                </div>
-                <div class="tab-pane fade" id="nav-bai3" role="tabpanel" aria-labelledby="nav-bai3-tab" tabindex="0">
-                </div>
-                <div class="tab-pane fade" id="nav-bai4" role="tabpanel" aria-labelledby="nav-bai4-tab" tabindex="0">
+                  <div class="tab-pane fade" id="nav-bai3" role="tabpanel" aria-labelledby="nav-bai3-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Tìm số nhỏ nhất</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Số nhỏ nhất: </strong><span id="findminArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="findminBtn" type="button">
+                        Tìm
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bai4" role="tabpanel" aria-labelledby="nav-bai4-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Tìm số dương nhỏ nhất</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Số dương nhỏ nhất: </strong><span id="findposminArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="findposminBtn" type="button">
+                        Tìm
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bai5" role="tabpanel" aria-labelledby="nav-bai5-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Số chẵn cuối cùng</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Số chẵn cuối cùng: </strong><span id="evennumArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="evennumBtn" type="button">
+                        Tìm
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bai6" role="tabpanel" aria-labelledby="nav-bai6-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Đổi chỗ</h3>
+                    <div class="row g-2">
+                      <div class="col-12 col-lg-6 form-floating">
+                        <input type="number" class="form-control" id="firstindexInput" placeholder="Nhập vị trí 1">
+                        <label for="firstindexId">Nhập vị trí 1</label>
+                      </div>
+                      <div class="col-12 col-lg-6 form-floating">
+                        <input type="number" class="form-control" id="secondindexInput" placeholder="Nhập vị trí 2" />
+                        <label for="secondindexId">Nhập vị trí 2</label>
+                      </div>
+                    </div>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Đổi chỗ: </strong><span id="switchnumArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="switchnumBtn" type="button">
+                        Đổi chỗ
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bai7" role="tabpanel" aria-labelledby="nav-bai7-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Sắp xếp tăng dần</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Sắp xếp: </strong><span id="sortingArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="sortingBtn" type="button">
+                        Sắp xếp
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bai8" role="tabpanel" aria-labelledby="nav-bai8-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Số nguyên tố đầu</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Số nguyên tố đầu: </strong><span id="firstprimenumArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="firstprimenumBtn" type="button">
+                        Tìm
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bai9" role="tabpanel" aria-labelledby="nav-bai9-tab" tabindex="0">
+                    <h3 class="mt-3 text-center">Đếm số nguyên</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Tổng số nguyên: </strong><span id="isintArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="isintBtn" type="button">
+                        Tìm số nguyên
+                      </button>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="nav-bai10" role="tabpanel" aria-labelledby="nav-bai10-tab"
+                    tabindex="0">
+                    <h3 class="mt-3 text-center">So sánh số lượng số âm và dương</h3>
+                    <div class="alert alert-success mt-3">
+                      👉<strong> Kết quả: </strong><span id="compareArray"></span>
+                    </div>
+                    <div class="col-12 text-center">
+                      <button class="btn btn-primary btn-lg" id="compareBtn" type="button">
+                        So sánh
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
